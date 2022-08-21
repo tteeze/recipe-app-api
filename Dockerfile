@@ -2,8 +2,8 @@ FROM python:3.9-alpine3.13
 LABEL maintainer="recipaapiapp.com"
 
 ENV PYTHONUNBUFFERED 1
-ENV HTTP_PROXY "http://proxy-dmz.intel.com:912"
-ENV HTTPS_PROXY "http://proxy-dmz.intel.com:912"
+# ENV HTTP_PROXY "http://proxy-dmz.intel.com:912"
+# ENV HTTPS_PROXY "http://proxy-dmz.intel.com:912"
 
 
 COPY ./requirements.txt /tmp/requirements.txt
